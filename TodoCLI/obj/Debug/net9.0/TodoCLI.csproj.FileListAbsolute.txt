@@ -1,0 +1,15 @@
+C:\Repository\Todo-cli\TodoCLI\bin\Debug\net9.0\TodoCLI.exe
+C:\Repository\Todo-cli\TodoCLI\bin\Debug\net9.0\TodoCLI.deps.json
+C:\Repository\Todo-cli\TodoCLI\bin\Debug\net9.0\TodoCLI.runtimeconfig.json
+C:\Repository\Todo-cli\TodoCLI\bin\Debug\net9.0\TodoCLI.dll
+C:\Repository\Todo-cli\TodoCLI\bin\Debug\net9.0\TodoCLI.pdb
+C:\Repository\Todo-cli\TodoCLI\obj\Debug\net9.0\TodoCLI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repository\Todo-cli\TodoCLI\obj\Debug\net9.0\TodoCLI.AssemblyInfoInputs.cache
+C:\Repository\Todo-cli\TodoCLI\obj\Debug\net9.0\TodoCLI.AssemblyInfo.cs
+C:\Repository\Todo-cli\TodoCLI\obj\Debug\net9.0\TodoCLI.csproj.CoreCompileInputs.cache
+C:\Repository\Todo-cli\TodoCLI\obj\Debug\net9.0\TodoCLI.sourcelink.json
+C:\Repository\Todo-cli\TodoCLI\obj\Debug\net9.0\TodoCLI.dll
+C:\Repository\Todo-cli\TodoCLI\obj\Debug\net9.0\refint\TodoCLI.dll
+C:\Repository\Todo-cli\TodoCLI\obj\Debug\net9.0\TodoCLI.pdb
+C:\Repository\Todo-cli\TodoCLI\obj\Debug\net9.0\TodoCLI.genruntimeconfig.cache
+C:\Repository\Todo-cli\TodoCLI\obj\Debug\net9.0\ref\TodoCLI.dll

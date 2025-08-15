@@ -5,6 +5,22 @@
     {
       "AbsoluteMoniker": "D:0:0:{134F684D-385A-45E1-870F-182345C367FA}|TodoCLI.csproj|c:\\repository\\todo-cli\\todocli\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{134F684D-385A-45E1-870F-182345C367FA}|TodoCLI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{134F684D-385A-45E1-870F-182345C367FA}|TodoCLI.csproj|c:\\repository\\todo-cli\\todocli\\cliloop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{134F684D-385A-45E1-870F-182345C367FA}|TodoCLI.csproj|solutionrelative:cliloop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{134F684D-385A-45E1-870F-182345C367FA}|TodoCLI.csproj|c:\\repository\\todo-cli\\todocli\\services\\itodorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{134F684D-385A-45E1-870F-182345C367FA}|TodoCLI.csproj|solutionrelative:services\\itodorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{134F684D-385A-45E1-870F-182345C367FA}|TodoCLI.csproj|c:\\repository\\todo-cli\\todocli\\models\\todoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{134F684D-385A-45E1-870F-182345C367FA}|TodoCLI.csproj|solutionrelative:models\\todoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{134F684D-385A-45E1-870F-182345C367FA}|TodoCLI.csproj|c:\\repository\\todo-cli\\todocli\\services\\inmemorytodorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{134F684D-385A-45E1-870F-182345C367FA}|TodoCLI.csproj|solutionrelative:services\\inmemorytodorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +30,61 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CliLoop.cs",
+              "DocumentMoniker": "C:\\Repository\\Todo-cli\\TodoCLI\\CliLoop.cs",
+              "RelativeDocumentMoniker": "CliLoop.cs",
+              "ToolTip": "C:\\Repository\\Todo-cli\\TodoCLI\\CliLoop.cs",
+              "RelativeToolTip": "CliLoop.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAA5wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T07:26:44.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "InMemoryTodoRepository.cs",
+              "DocumentMoniker": "C:\\Repository\\Todo-cli\\TodoCLI\\Services\\InMemoryTodoRepository.cs",
+              "RelativeDocumentMoniker": "Services\\InMemoryTodoRepository.cs",
+              "ToolTip": "C:\\Repository\\Todo-cli\\TodoCLI\\Services\\InMemoryTodoRepository.cs",
+              "RelativeToolTip": "Services\\InMemoryTodoRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACMAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T07:18:38.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ITodoRepository.cs",
+              "DocumentMoniker": "C:\\Repository\\Todo-cli\\TodoCLI\\Services\\ITodoRepository.cs",
+              "RelativeDocumentMoniker": "Services\\ITodoRepository.cs",
+              "ToolTip": "C:\\Repository\\Todo-cli\\TodoCLI\\Services\\ITodoRepository.cs",
+              "RelativeToolTip": "Services\\ITodoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T07:12:31.302Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TodoItem.cs",
+              "DocumentMoniker": "C:\\Repository\\Todo-cli\\TodoCLI\\Models\\TodoItem.cs",
+              "RelativeDocumentMoniker": "Models\\TodoItem.cs",
+              "ToolTip": "C:\\Repository\\Todo-cli\\TodoCLI\\Models\\TodoItem.cs",
+              "RelativeToolTip": "Models\\TodoItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T07:10:33.993Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +93,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Repository\\Todo-cli\\TodoCLI\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAgwBgAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-15T06:31:27.296Z",
               "EditorCaption": ""
