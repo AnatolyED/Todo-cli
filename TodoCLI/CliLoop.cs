@@ -1,4 +1,5 @@
-﻿using TodoCLI.Services;
+﻿using Serilog;
+using TodoCLI.Services;
 
 namespace TodoCLI
 {
@@ -6,6 +7,8 @@ namespace TodoCLI
     {
         public static async Task RunAsync(string[] args, ITodoRepository repo)
         {
+            Log.Information("Получена команда: {Command}", args);
+
             if (args.Length == 0)
             {
                 PrintUsage();

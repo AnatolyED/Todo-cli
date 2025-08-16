@@ -1,4 +1,6 @@
-﻿using TodoCLI.Services;
+﻿using Serilog;
+using TodoCLI.Logging;
+using TodoCLI.Services;
 
 namespace TodoCLI;
 
@@ -6,6 +8,7 @@ class Program
 {
     static async Task Main(string[] args)
     {
+        Log.Logger = LoggerConfig.CreateLogger();
         var repo = new InMemoryTodoRepository();
 
         // Если args пустые — интерактивный режим
@@ -16,7 +19,18 @@ class Program
         else
         {
             // Классический режим (чтобы можно было запускать из консоли)
-            await CliLoop.RunAsync(args, repo);
+            try
+            {
+                await CliLoop.RunAsync(args, repo);
+            }
+            catch (Exception ex)
+            {
+                Log.Fatal(ex, "Приложение упало");
+            }
+            finally
+            {
+                Log.CloseAndFlush();
+            }
         }
     }
 

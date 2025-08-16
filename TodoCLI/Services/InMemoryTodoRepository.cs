@@ -1,11 +1,13 @@
-﻿using TodoCLI.Models;
+﻿using Serilog;
+using TodoCLI.Logging;
+using TodoCLI.Models;
 
 namespace TodoCLI.Services;
 
 public class InMemoryTodoRepository : ITodoRepository
 {
     private readonly List<TodoItem> _items = new();
-    private int _nextId = 1;
+    private int _nextId = 0;
 
     public Task<int> AddAsync(string title)
     {
@@ -14,6 +16,9 @@ public class InMemoryTodoRepository : ITodoRepository
             Id = Interlocked.Increment(ref _nextId)
         };
         _items.Add(item);
+
+        Log.Information("Добавлена задача '{Title}' с id = {Id}", title, item.Id);
+
         return Task.FromResult(item.Id);
     }
 
